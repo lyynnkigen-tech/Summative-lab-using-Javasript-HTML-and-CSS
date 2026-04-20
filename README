@@ -1,0 +1,26 @@
+# Wordly Dictionary SPA
+
+## What is this project?
+This is my Wordly Dictionary project. I built this Single Page Application (SPA) to help people find word meanings, synonyms, and audio pronunciations quickly and easily.
+
+## What I Used
+* **HTML5**: I used this to create the structure of the site, like the search bar, the result headers, and the audio player.
+* **CSS3**: I used CSS to style the app. I made sure to use `max-width` and `margin: 0 auto` so that the app stays centered in the middle of the screen on laptops.
+* **JavaScript**: This is the most important part. I used JavaScript to "fetch" data from the Free Dictionary API and update the page dynamically without the user having to refresh.
+
+## How it Works
+When you type a word and hit the "Search" button:
+1. My JavaScript code grabs the word you typed from the input box.
+2. It sends that word to an external Dictionary API.
+3. If the word is found, the code swaps the "Result Title" with your word and fills in the definition and synonyms.
+4. If there is a recording available, the audio player will appear so you can hear the word.
+5. If the word doesn't exist, I added "Error Handling" so the app shows a friendly message saying the word wasn't found.
+
+## How to Run it
+To see the app in action:
+1. Open my `index.html` file in any web browser.
+2. Type a common word like "Library" or "Code."
+3. Click "Search" and the results will appear instantly!
+
+## Reflections
+The trickiest part for me was making sure the API URL was written correctly using backticks so the search variable would work. I also learned a lot about how to use the browser console to find errors when my code wasn't working at first.

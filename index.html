@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Mac Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <header>
+         <strong>WORDLY DICTIONARY.</strong>
+     </header>
+<br>
+    <div>
+        <form id="searchForm" class="search-form">
+            <input type="text" id="searchInput" placeholder="Search for a word..." aria-label="Search" required>
+            <button type="submit" id="searchButton">Search</button>
+        </form>
+    </div>
+    <main id="resultsArea" class="results-container">
+        <div class="word-header">
+            <h2 id="wordTitle">Result Title</h2>
+        </div>
+        <section class="content-body">
+            <h3>Definition</h3>
+            <p id="definitionDisplay">Search for a word to see its definition here.</p>
+            <audio id="audioPlayer" controls></audio>
+            <div id="synonymsWrapper">
+                <h3>Synonyms</h3>
+                <p id="synonymsList">None</p>
+            </div>
+
+            <div id="sourceWrapper">
+                <hr>
+                <small>Source: <a id="sourceLink" href="#" target="_blank">View Dictionary Source</a></small>
+            </div>
+        </section>
+        
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
