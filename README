@@ -22,5 +22,4 @@ To see the app in action:
 2. Type a common word like "Library" or "Code."
 3. Click "Search" and the results will appear instantly!
 
-## Reflections
-The trickiest part for me was making sure the API URL was written correctly using backticks so the search variable would work. I also learned a lot about how to use the browser console to find errors when my code wasn't working at first.
+https://summative-lab-using-javasr-git-ba0f43-lyynnkigen-techs-projects.vercel.app/
