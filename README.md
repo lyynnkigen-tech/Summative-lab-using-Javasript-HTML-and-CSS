@@ -22,4 +22,4 @@ To see the app in action:
 2. Type a common word like "Library" or "Code."
 3. Click "Search" and the results will appear instantly!
 
-https://summative-lab-using-javasr-git-ba0f43-lyynnkigen-techs-projects.vercel.app/
+[Click here to view my Live Site](https://summative-lab-using-javasript-html.vercel.app)
